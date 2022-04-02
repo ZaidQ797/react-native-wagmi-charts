@@ -6,7 +6,7 @@ import { useLineChart } from './useLineChart';
 
 export function useLineChartPrice({
   format,
-  precision = 2,
+ 
 }: { format?: TFormatterFn<string>; precision?: number } = {}) {
   const { currentIndex, data } = useLineChart();
 
